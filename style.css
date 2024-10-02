@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+  }
+
+body{
+	font-family: "Inter", sans-serif;
+}
+
+.meio{
+    width: 1216px;
+    margin: auto auto;
+}
+
+/* cabeça papai */
+header{
+	margin-bottom: 100px;
+}
+
+.cabeca{
+    width: 1216px;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+header section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header section div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+nav.menu{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: #505050;
+	font-size: 16px;
+
+}
+
+/* caixa 1 */
+.pri .meio{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+	justify-content: space-between;
+	width: 1216px;
+  }
+  
+.pri .meio .img img{
+    width: 600px;
+	height: 600px;
+  }
+
+.textu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 490px;
+	height: 600px;
+	text-align: left;
+}
+
+.textu h3{
+	font-size: 54px;
+	color: #040315;
+}
+
+.textu p{
+	color: #505050;
+	font-size: 18px;
+}
+
+.textu h2{
+	font-size: 64px;
+    color: #2E68FF;
+  }
+
+small{
+	color: #cecece;
+}
+
+/* caixa 2 */
+.seg .meio{
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 26px;
+	margin-top: 168px;
+	margin-bottom: 200px;
+  }
+
+.seg .meio section p{
+	font-size: 20px;
+	color: #2E68FF;
+}
+
+.seg .meio section h1{
+	font-size: 64px;
+	color: #040315;
+}
+
+.seg .meio section div p{
+	color: #505050;
+	font-size: 18px;
+}
+
+.textinhu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 26px;
+	text-align: center;
+}
+
+.col{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1216px;
+}
+
+.col div p{
+	display: flex;
+	justify-content: center;
+}
+
+/* caixa 3 */
+
+.ter .meio{
+	background-color: #2E68FF;
+}
+
+.prop{
+	padding: 96px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.cx h1{
+	color: #ffffff;
+	font-size: 54px;
+}
+
+.cx img{
+	height: 36px;
+	width: 22px;
+}
+
+.cx{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 568px;
+}
+
+.cx p{
+	color:#ffffff;
+	font-size: 18px;
+}
+
+/* pezão */
+footer{
+    background-color: #1a1a1a;
+	padding: 50px 0px;
+	margin-top: 100px;
+}
+
+.pezao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	width: 1216px;
+	margin: auto auto;
+}
+
+.pezao div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+  }
+
+nav.listap{
+	display: flex;
+	align-items: center;
+	gap: 48px;
+  }
+  
+nav.listap a{
+	  text-decoration: none;
+	  color: #ffffff;
+	  font-size: 16px;
+  
+  }
+  
+  /* AJUSTES */
+.botao {
+      background-color: #2E68FF;
+      color: #fff;
+      font-size: 16px;
+      padding: 16px 30px;
+      display: inline-block;
+      margin: 10px 0;
+      text-decoration: none;
+      text-align: center;
+	  width: 160px;
+  }
